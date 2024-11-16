@@ -1,0 +1,44 @@
+.main-header {
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 240px;
+
+    & a {
+      font-family: $secondary-font, medium;
+      font-size: $secondary-font-size;
+      color: $text-primary-color !important;
+      text-decoration: none;
+    }
+  }
+
+  &__logo a {
+    font-family: $logo-font !important;
+    font-size: $logo-font-size !important;
+    letter-spacing: 3px;
+
+  }
+
+  &__booking-button button {
+    padding: 10px 30px;
+    font-family: $secondary-font;
+    font-size: 13px;
+    color: white;
+    background-color: $button-primary-color;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+}
